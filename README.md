@@ -33,10 +33,29 @@ note: look for the single or double quotes to indicate non-numeric data types
 - Mixed data types
 - Keys and values are mutable (can be reassigned and extended)  
 
-## conditionals and comparison operators
 
-if x == 'world':
-     do this
-else:
-     do this instead
+## Input/Output (I/O)
+
+`print()` - handy and easy output method
+
+`input()` - handy and easy input method
+
+Another useful I/O method are through files objects.
+
+**File Input**
+```
+with open('example_data/example_input_file.txt', 'r') as example_file_obj:
+    lines = example_file_obj.read()
+
+example_file_obj.close()
+```
+
+**File Output**
+```
+with open('example_data/example_output_file.txt', 'w') as example_file_obj:
+    example_file_obj.write("Hello World")
+
+example_file_obj.close()
+```
+
 
