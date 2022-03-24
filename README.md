@@ -59,3 +59,6 @@ example_file_obj.close()
 ```
 
 
+## Vidoes
+
+https://www.youtube.com/watch?v=dtRtvY7mqN8
